@@ -11,7 +11,7 @@
     To avoid any confusion with the version of the vendor package, the major
     version here will always be 0.
   -->
-  <version>0.0.2</version>
+  <version>0.0.3</version>
   <description>
     Vendor package for Ogre-next v2.3.3
   </description>
@@ -29,23 +29,27 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
 
+  <depend>glslang-dev</depend>
+  <depend>glslc</depend>
+  <depend>libboost-date-time-dev</depend>
+  <depend>libboost-dev</depend>
+  <depend>libboost-thread-dev</depend>
+  <depend>libfreeimage-dev</depend>
+  <depend>libfreetype-dev</depend>
+  <depend>libpoco-dev</depend>
+  <depend>libshaderc-dev</depend>
+  <depend>libvulkan-dev</depend>
   <depend>libx11-dev</depend>
+  <depend>libx11-xcb-dev</depend>
   <depend>libxaw</depend>
+  <depend>libxcb-randr0-dev</depend>
   <depend>libxrandr</depend>
   <depend>opengl</depend>
-  <depend>libpoco-dev</depend>
-  <depend>libfreetype-dev</depend>
   <depend>rapidjson-dev</depend>
-  <depend>zziplib</depend>
-  <depend>libx11-xcb-dev</depend>
-  <depend>libxcb-randr0-dev</depend>
-  <depend>libvulkan-dev</depend>
   <depend>sdl2</depend>
   <depend>tbb</depend>
   <depend>tinyxml2</depend>
-  <depend>glslang-dev</depend>
-  <depend>glslc</depend>
-  <depend>libshaderc-dev</depend>
+  <depend>zziplib</depend>
 
   <test_depend>ament_cmake_xmllint</test_depend>
   <test_depend>ament_lint_auto</test_depend>
