@@ -1,0 +1,12 @@
+Source: ros-rolling-gz-ogre-next-vendor
+Section: misc
+Priority: optional
+Maintainer: Michael Carroll <mjcarroll@intrinsic.ai>
+Build-Depends: debhelper (>= 9.0.0), glslang-dev, glslc, libboost-date-time-dev, libboost-dev, libboost-thread-dev, libfreeimage-dev, libfreetype-dev, libgl1-mesa-dev, libglu1-mesa-dev, libpoco-dev, libsdl2-dev, libshaderc-dev, libtbb-dev, libtinyxml2-dev, libvulkan-dev, libx11-dev, libx11-xcb-dev, libxaw7-dev, libxcb-randr0-dev, libxrandr-dev, libzzip-dev, rapidjson-dev, ros-rolling-ament-cmake, ros-rolling-ament-cmake-vendor-package, ros-rolling-ament-cmake-xmllint <!nocheck>, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-ros-workspace
+Homepage: https://www.ogre3d.org/
+Standards-Version: 3.9.2
+
+Package: ros-rolling-gz-ogre-next-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, glslang-dev, glslc, libboost-date-time-dev, libboost-dev, libboost-thread-dev, libfreeimage-dev, libfreetype-dev, libgl1-mesa-dev, libglu1-mesa-dev, libpoco-dev, libsdl2-dev, libshaderc-dev, libtbb-dev, libtinyxml2-dev, libvulkan-dev, libx11-dev, libx11-xcb-dev, libxaw7-dev, libxcb-randr0-dev, libxrandr-dev, libzzip-dev, rapidjson-dev, ros-rolling-ros-workspace
+Description: Vendor package for Ogre-next v2.3.3
