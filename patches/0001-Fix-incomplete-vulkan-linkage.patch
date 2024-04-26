@@ -15,12 +15,11 @@ diff --git a/CMake/Dependencies.cmake b/CMake/Dependencies.cmake
 index 7dd36f2..208c87c 100644
 --- a/CMake/Dependencies.cmake
 +++ b/CMake/Dependencies.cmake
-@@ -91,7 +91,8 @@ macro_log_feature(FreeImage_FOUND "freeimage" "Support for commonly used graphic
+@@ -91,7 +91,7 @@ macro_log_feature(FreeImage_FOUND "freeimage" "Support for commonly used graphic
  find_package(Freetype)
  macro_log_feature(FREETYPE_FOUND "freetype" "Portable font engine" "http://www.freetype.org" FALSE "" "")
  
 -find_package(Vulkan)
-+find_package(glslang)
 +find_package(Vulkan COMPONENTS glslc SPIRV-Tools)
  macro_log_feature(Vulkan_FOUND "vulkan-sdk" "Vulkan SDK" "https://vulkan.lunarg.com/" FALSE "" "")
  
