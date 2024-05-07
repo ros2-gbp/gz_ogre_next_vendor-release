@@ -2,6 +2,12 @@
 Changelog for package gz_ogre_next_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.5 (2024-05-07)
+------------------
+* Fix build on arm64  (`#3 <https://github.com/gazebo-release/gazebo_ogre_next_vendor/issues/3>`_)
+  Co-authored-by: Jose Luis Rivero <jrivero@osrfoundation.org>
+* Contributors: Addisu Z. Taddese
+
 0.0.4 (2024-04-22)
 ------------------
 * Fix build error due to glslang
