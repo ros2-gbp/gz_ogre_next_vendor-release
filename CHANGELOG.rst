@@ -2,17 +2,21 @@
 Changelog for package gz_ogre_next_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.1.1 (2025-11-24)
+0.2.0 (2025-11-24)
 ------------------
-* Kilted: 0.1.1 - gz_cmake as build_dep and libatomic as dep (`#11 <https://github.com/gazebo-release/gz_ogre_next_vendor/issues/11>`_)
-  * Kilted: gz_cmake as build_dep and libatomic as dep
+* Bump minor for Rolling
+* Mark gz_cmake_vendor as a build dependency #10
+* Merge pull request `#9 <https://github.com/gazebo-release/gz_ogre_next_vendor/issues/9>`_ from gazebo-release/jrivero/missing_atomic
+  * Missing atomic depends. 0.2.0
 * Fix use of gz-cmake vendor package (`#6 <https://github.com/gazebo-release/gz_ogre_next_vendor/issues/6>`_)
   This ensures that this works with gz-cmake4 as well
 * Add check for system installed ogre-next (`#5 <https://github.com/gazebo-release/gz_ogre_next_vendor/issues/5>`_)
   * Check for system installed ogre-next first.
   * Add exact/relaxed version matching
   * Revert change to github url
-* Contributors: Rhys Mainwaring, Addisu Z. Taddese, Jose Luis Rivero, Øystein Sture
+  ---------
+  Co-authored-by: Rhys Mainwaring <rhys.mainwaring@me.com>
+* Contributors: Addisu Z. Taddese, Jose Luis Rivero, Øystein Sture
 
 0.1.0 (2024-05-07)
 ------------------
