@@ -11,7 +11,7 @@
     To avoid any confusion with the version of the vendor package, the major
     version here will always be 0.
   -->
-  <version>0.1.0</version>
+  <version>0.2.0</version>
   <description>
     Vendor package for Ogre-next v2.3.3
   </description>
@@ -29,8 +29,11 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
 
+  <build_depend>gz_cmake_vendor</build_depend>
+
   <depend>glslang-dev</depend>
   <depend>glslc</depend>
+  <depend>libatomic</depend>
   <depend>libboost-date-time-dev</depend>
   <depend>libboost-dev</depend>
   <depend>libboost-thread-dev</depend>
