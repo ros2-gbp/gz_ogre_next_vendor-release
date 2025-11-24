@@ -1,0 +1,58 @@
+ros-rolling-gz-ogre-next-vendor (0.2.0-1noble) noble; urgency=high
+
+  * Bump minor for Rolling
+  * Mark gz_cmake_vendor as a build dependency #10
+  * Merge pull request #9 <https://github.com/gazebo-release/gz_ogre_next_vendor/issues/9> from gazebo-release/jrivero/missing_atomic
+    * Missing atomic depends. 0.2.0
+  * Fix use of gz-cmake vendor package (#6 <https://github.com/gazebo-release/gz_ogre_next_vendor/issues/6>)
+    This ensures that this works with gz-cmake4 as well
+  * Add check for system installed ogre-next (#5 <https://github.com/gazebo-release/gz_ogre_next_vendor/issues/5>)
+    * Check for system installed ogre-next first.
+    * Add exact/relaxed version matching
+    * Revert change to github url
+    ---------
+    Co-authored-by: Rhys Mainwaring <mailto:rhys.mainwaring@me.com>
+  * Contributors: Addisu Z. Taddese, Jose Luis Rivero, Øystein Sture
+
+ -- Michael Carroll <mjcarroll@intrinsic.ai>  Sun, 23 Nov 2025 23:00:00 -0000
+
+ros-rolling-gz-ogre-next-vendor (0.1.0-1noble) noble; urgency=high
+
+  * Fix build on arm64  (#3 <https://github.com/gazebo-release/gazebo_ogre_next_vendor/issues/3>)
+    Co-authored-by: Jose Luis Rivero <mailto:jrivero@osrfoundation.org>
+  * Contributors: Addisu Z. Taddese
+
+ -- Michael Carroll <mjcarroll@intrinsic.ai>  Mon, 06 May 2024 22:00:00 -0000
+
+ros-rolling-gz-ogre-next-vendor (0.0.4-1noble) noble; urgency=high
+
+  * Fix build error due to glslang
+  * Contributors: Addisu Z. Taddese
+
+ -- Michael Carroll <mjcarroll@intrinsic.ai>  Sun, 21 Apr 2024 22:00:00 -0000
+
+ros-rolling-gz-ogre-next-vendor (0.0.3-1noble) noble; urgency=high
+
+  * Add additional dependencies, fix vulkan build
+  * Sort dependencies
+  * Contributors: Addisu Z. Taddese
+
+ -- Michael Carroll <mjcarroll@intrinsic.ai>  Thu, 18 Apr 2024 22:00:00 -0000
+
+ros-rolling-gz-ogre-next-vendor (0.0.2-1noble) noble; urgency=high
+
+  * Change version to 0.0.1
+  * Fix linter (#2 <https://github.com/gazebo-release/gazebo_ogre_next_vendor/issues/2>)
+  * Add README (#1 <https://github.com/gazebo-release/gazebo_ogre_next_vendor/issues/1>)
+  * Rename package to gz_ogre_next_vendor
+  * Remove unused flag
+  * Add license and contributing files
+  * Fix rosdep keys in package.xml
+  * Fix patch to work on Jammy
+  * Aligned with  build flags from our fork
+  * Ogre Next Vendor package
+  * Contributors: Addisu Z. Taddese, Michael Carroll
+
+ -- Michael Carroll <mjcarroll@intrinsic.ai>  Sun, 07 Apr 2024 22:00:00 -0000
+
+
