@@ -73,6 +73,7 @@ VCS_URL https://github.com/OGRECave/ogre-next.git
   GLOBAL_HOOK
   PATCHES
     patches/0001-Fix-incomplete-vulkan-linkage.patch
+    patches/0002-cxx20-constexpr-stlallocator.patch
 )
 
 message("OGRE2_FOUND: ${OGRE2_FOUND}")
